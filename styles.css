@@ -1,0 +1,31 @@
+@media (max-width: 550px) {
+    body {
+        overflow: hidden!important;
+    }
+    #hide_2 {
+        font-size: 4rem!important;
+    }
+
+    #hide_3 {
+        font-size: 4rem!important;
+        /* text-align: none!important; */
+        margin-left: 35%!important;
+        padding-bottom: 50px!important;
+    }
+
+    .title [class*=title__word] {
+        font-size: 5rem!important;
+    }
+
+    .title .title__word--02 {
+        font-size: 4rem!important;
+        animation-name: word-fade-02;
+        animation-timing-function: linear;
+        animation-duration: 1s;
+        animation-delay: 1.4s;
+    }
+
+    .container {
+        overflow: hidden!important;
+    }
+}
